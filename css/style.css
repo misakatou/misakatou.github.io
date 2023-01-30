@@ -1,0 +1,214 @@
+body{
+    color: #53482b;
+    background-color:#fff;
+}
+.main-container{
+    background: #fafafa;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.navbar{
+    background: #131d24;
+    justify-content: center;
+    height: 70px;
+}
+.navbar-brand{
+    font-family: 'Cardo', serif;
+    color: #fff;
+    letter-spacing: 1.3px;
+    background: url(./images/logo.svg) no-repeat;
+    background-size: 24px;
+    background-position: 0 50%;
+    padding-left: 40px;
+
+}
+.navbar-brand:hover,.navbar-brand:visited{
+    color: #fff;
+}
+
+
+
+.page-title{
+    font-family: 'Cardo', serif;
+    border-bottom: 1px solid #ab9353;
+    margin-bottom: 36px;
+    padding-bottom: 8px;
+}
+
+.plan-section{
+    margin-bottom: 40px;
+    padding: 0;
+}
+#plan-name{
+    background: url(./images/bookmark.svg) no-repeat center left;
+    background-size: 30px;
+    padding-left: 30px;
+}
+#plan-desc{
+    color:#5c4204;
+}
+
+.badge-primary{
+    background-color:#ab9353;
+    border-radius: 1px;
+    margin-left: 10px;
+}
+
+#plan-desc{
+    background: #f7f3ea;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.plan-img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.plan-img img{
+    width: 100%;
+}
+
+.left-side{
+    padding: 0px 24px 0 0;
+}
+
+/* form */
+
+.form-group{
+    margin-bottom: 36px;
+}
+.form-control{
+    border-color: #82703e;
+    border-radius: 0;
+    background: #f6f5ef;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: rgb(255, 252, 238);
+    border-color: #ab9353;
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem rgba(154, 22, 13, 0.25);
+}
+
+.input-group-text{
+    background: #ab9353;
+    border-color: #82703e;
+    color: #fff;
+}
+
+.additional-plan{
+    background: #f7f3ea;
+    padding: 16px 24px;
+}
+
+input[type=checkbox]:checked{
+    accent-color: #82703e;
+}
+
+.form-control.is-valid, .was-validated .form-control:valid{
+    border-color: #065b34;
+}
+
+.form-check-input.is-valid~.form-check-label, .was-validated .form-check-input:valid~.form-check-label{
+    color: #5c4204;
+}
+
+.right-section{
+    background: #f1f1f1;
+    padding: 24px;
+}
+
+/* total bill */
+.total{
+    font-size: 1.3rem;
+    margin-bottom: 0;
+}
+
+#total-bill{
+    font-family: 'Cinzel', serif;
+}
+
+.submit-btn{
+    background:linear-gradient(to bottom, #D4AF37 0%, #C5A028 100%);
+    border: 1px solid #ab9353;
+    border-radius: 0;
+    padding: 16px 24px;
+    font-size: 1.3rem;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+}
+.submit-btn:hover{
+    background:linear-gradient(to bottom, #D4AF37 0%, #dab334 100%);
+    border: 1px solid #5f4b12;
+}
+
+#room-info{
+    font-size: 0.9rem;
+    background: #f7f3ea;
+    padding: 16px;
+}
+
+/* calendar */
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover{
+    border: #82703e;
+    background: #82703e;
+}
+
+footer{
+    background: #131d24;
+    color: #fff;
+}
+.footer-logo{
+    opacity: 0.5;
+    margin-bottom: 16px;
+}
+
+
+/* rooms (iframe) */
+.rooms .container{
+    padding: 24px 16px;
+}
+.rooms h5{
+    margin-bottom: 24px;
+    border-left: 4px solid #ab9353;
+    padding-left: 8px;
+}
+.rooms p{
+    font-size: 0.9rem;
+}
+
+.rooms li{
+    list-style: none;
+    font-size: 0.9rem;
+}
+
+.rooms ul{
+    padding-left: 0px;
+}
+
+/* confirm */
+
+.plan-detail{
+    padding: 24px;
+    margin: 24px 0;
+    border-bottom: 1px solid #ab9353;
+}
+
+.btn-success{
+    background: #ab9353;
+    border-color: #ab9353;
+}
+.btn-success:hover{
+    background: #9a8345;
+    border-color: #6e5c2c;
+}
+
+.modal-header{
+    border-bottom: none;
+}
+.modal-footer{
+    border-top: none;
+}

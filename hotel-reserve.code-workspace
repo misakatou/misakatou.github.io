@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.ChromeDebuggingAttachment": false,
+		"liveServer.settings.root": "hotel-example-site"
+	}
+}
