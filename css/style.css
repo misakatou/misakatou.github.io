@@ -37,8 +37,14 @@ body{
 
 .plan-section{
     margin-bottom: 40px;
-    padding: 0;
+    padding: 0px;
 }
+@media screen and (max-width: 768px) {
+    .plan-section{
+        padding: 0 16px;
+    }
+}
+
 #plan-name{
     background: url(./images/bookmark.svg) no-repeat center left;
     background-size: 30px;
@@ -62,7 +68,6 @@ body{
 
 .plan-img{
     width: 100%;
-    height: 500px;
     object-fit: cover;
     overflow: hidden;
     border-radius: 3px;
@@ -72,7 +77,12 @@ body{
 }
 
 .left-side{
-    padding: 0px 24px 0 0;
+    padding: 0px 16px 0 0px;
+}
+@media screen and (max-width: 768px) {
+    .left-side{
+        padding: 0px 16px 0 16px;
+    }
 }
 
 /* form */
