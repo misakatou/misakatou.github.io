@@ -16,7 +16,7 @@ body{
     font-family: 'Cardo', serif;
     color: #fff;
     letter-spacing: 1.3px;
-    background: url(./images/logo.svg) no-repeat;
+    /* background: url(./images/logo.svg) no-repeat; */
     background-size: 24px;
     background-position: 0 50%;
     padding-left: 40px;
