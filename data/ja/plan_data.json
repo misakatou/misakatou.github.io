@@ -1,7 +1,7 @@
 [
   {
     "id": 0,
-    "name": "お得な特典プレゼント付きプラン",
+    "name": "プレゼントプラン",
     "roomBill": 7000,
     "minHeadCount": 1,
     "maxHeadCount": 9,
